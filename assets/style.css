@@ -5,6 +5,21 @@
     margin: auto;
     
 }
+#Base2{
+    background-color: white;
+    width: 1160px;
+    height: 700px;
+    margin: auto;
+    
+}
+#Base3{
+    background-color: #782221;
+    color: white; 
+    height: 700px;
+    width: 320px;
+    padding-top: 10px;
+
+}
 p{
     color: yellow;
     width: 30px;
@@ -28,20 +43,26 @@ nav{
     padding-right: 30px;
     padding-bottom: 15px;
 }
+#navemail{
+    padding-top: 15px;
+    padding-right: 80px;
+    padding-bottom: 15px;
+}
 h1{
     background-color: #dbc2a4;
     color: black;
-    width: 300px;
+    width: 260px;
+    height: 20px;
+    margin-right: 0px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
     padding-left: 20px;
-}
-section{
-    color: white;
-    width: 300px;
 }
 #article1{
     padding-left: 20px;
 }
-ul{
+ol{
     padding-left: 20px;
 }
-
