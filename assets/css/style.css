@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap')
 
 
-@font-face {
+@font-face{
     font-family: "Raleway";
-    src: url(../fonts/Raleway-Light.ttf);
+    src:local()../fonts/Raleway-Light.ttf);
     src:url(../fonts/Raleway-LightItalic.ttf);
     src: url(../fonts/Raleway-Bold.ttf);
 }
@@ -79,6 +79,7 @@ nav{
 h1{
     background-color: #dbc2a4;
     color: black;
+    font-family: "Lato", sans-serif;
     width: 260px;
     height: 20px;
     margin-right: 0px;
@@ -87,11 +88,12 @@ h1{
     margin-bottom: 10px;
     padding-bottom: 5px;
     padding-left: 20px;
-    font-family: ;
+    
 }
 h2{
     background-color: #dbc2a4;
     color: black;
+    font-family: "Lato", sans-serif;
 }
 #article1{
     padding-left: 20px;
@@ -119,7 +121,9 @@ img{
     width: 50px;
     height: 50px;
 }
-
+article ol {
+    font-family: "Raleway";
+}
 
 
 
